@@ -1,0 +1,13 @@
+body{
+	background-color: black;
+}
+.clock{
+	color: cyan;
+	font-size: 60px;
+	font-family: 'Anton', sans-serif;
+
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%);
+}
