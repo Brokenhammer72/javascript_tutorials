@@ -1,0 +1,30 @@
+body{
+	display: flex;
+	justify-content: center;
+}
+.textField{
+	width: 450px;
+}
+.screen{
+	padding: 20px;
+	width: 91%;
+	color: white;
+	font-size: 30px;
+	border: none;
+	background: black;
+}
+.buttons{
+	display: flex;
+	flex-wrap: wrap;
+}
+button{
+	background: grey;
+	color: white;
+	flex: 22%;
+	font-size: 60px;
+	width:	13px;
+	border-color: black;
+}
+.btn{
+	background: orange;
+}
