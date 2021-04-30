@@ -1,3 +1,4 @@
+newQuote()
 function newQuote() {
 	fetch('https://api.quotable.io/random')
 		.then(response => {
@@ -12,6 +13,5 @@ function newQuote() {
 			}
 			document.getElementById('quote-text').innerHTML= quote;
 			document.getElementById('author-name').innerHTML= author;
-			console.log('hello');
 		})
 }

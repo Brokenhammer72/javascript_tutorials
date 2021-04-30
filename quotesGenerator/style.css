@@ -7,9 +7,14 @@
 	border-radius: 50px;
 	opacity: 0.8;
 }
+html, body {
+  height: 100%;
+}
 body{
 	background-image: url("alone.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
 }
 
 #quote-text{
