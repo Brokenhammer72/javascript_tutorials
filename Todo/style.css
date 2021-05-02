@@ -1,0 +1,50 @@
+#Title-div{
+	height: 70px;
+	min-height: 70px;
+	background-color: #4b778d;
+	color: white;
+	font-size: 25px;
+	border-radius: 12px;
+	margin-bottom: 0px;
+}
+
+#title{
+	position: absolute;
+	left: 34px;
+	top:-12px; 
+	margin-bottom: 0px;
+}
+#main{
+	margin-top: 0px;
+	height: 500px;
+	width: 1260px;
+}
+#add{
+	font-size: 30px;
+	margin-left: 2%;
+	margin-bottom: 4px;
+}
+
+#field{
+	height: 25px;
+	font-size: 20px;
+	margin-left: 2%;
+	border:2px solid grey;
+	border-radius: 12px;
+}
+#submit-btn{
+	font-size: 20px;
+	background-color: grey;
+	color: white;
+	border-radius: 12px;
+	border: 1.5px solid grey;
+}
+#submit-btn:hover{
+	border: 1.5px solid black;
+	cursor: pointer;
+}
+#tasks{
+	font-size: 30px;
+	margin-top: 10px;
+	margin-left: 2%;
+}
