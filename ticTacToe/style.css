@@ -1,0 +1,32 @@
+#main{
+	position: absolute;
+	left: 35%;
+	top: 20%;
+	padding: none;
+}
+html{
+	background-color: #94d0cc;
+}
+#status{
+	font-size: 25px;
+	color: red;
+}
+button{
+	max-height: 100px;
+	height: 100px;
+	max-width: 120px;
+	width: 120px;
+	border-radius: 12px;
+	border: none;
+	background-color: white;
+	border:0px solid black;
+	color: #f55c47;
+	vertical-align: top;
+	margin-top: 2px;
+	font-size: 55px;
+}
+
+button:hover{
+	cursor: pointer;
+	border:2px solid #194350;
+}
